@@ -8,7 +8,7 @@ const categories = "https://api.themoviedb.org/3/genre/movie/list?api_key=70d1cc
 // const topraterd = "https://api.themoviedb.org/3/movie/top_rated?api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&page=1"
 console.log("categories",categories);
 
-const API_URL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&page=1";
+const API_URL = "https://api.themoviedb.org/3/discover/movie?sort_by=week&api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&page=1";
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&query="';
 // const credit = "https://api.themoviedb.org/3/movie/299536/credits?api_key=70d1cc698a6c7bcbc7d97db267bc4ca0";
