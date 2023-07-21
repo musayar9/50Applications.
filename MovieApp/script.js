@@ -15,7 +15,7 @@ const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?api_key=70d1cc698a6
 // console.log(credit);
 
 
-const videos = "https://api.themoviedb.org/3/movie/31408?api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&append_to_response=videos,images,posters"
+const videos = "https://api.themoviedb.org/3/movie/31408?api_key=70d1cc698a6c7bcbc7d97db267bc4ca0&append_to_response=videos,credits,images,posters"
 const main = document.getElementById("main")
 const form =  document.getElementById("form")
 const search = document.getElementById("search")
