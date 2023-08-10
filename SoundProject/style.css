@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #88aadd;
+    font-family: "Viner Hand ITC";
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.btn{
+    background-color: #7700bb;
+    border-radius: 8px;
+    border: none;
+    color:#eee;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size:1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline:none;
+}
